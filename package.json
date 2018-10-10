@@ -15,8 +15,8 @@
     "start": "npm run build && node dist/ao-killboard.js"
   },
   "dependencies": {
+    "bufferutil": "^3.0.3",
     "discord.js": "^11.1.0",
-    "request": "^2.81.0",
-	  "bufferutil": "^3.0.3"
+    "request": "^2.81.0"
   }
 }
