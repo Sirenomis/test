@@ -6,7 +6,7 @@
 	"admins": [
 		""
 	],
-	"botChannel": "https://discordapp.com/api/webhooks/499613353304391681/O3JZaqvQop68F3AEfN5dIh2_0_vzdW3sxnwu5uhLdlhabd9NLuEloJxm3OPt6Fsq4ZTY",
+	"botChannel": "499613353304391681",
 	"playingGame": "Albion Killboard Bot",
-	"token": ""
+	"token": "O3JZaqvQop68F3AEfN5dIh2_0_vzdW3sxnwu5uhLdlhabd9NLuEloJxm3OPt6Fsq4ZTY"
 }
