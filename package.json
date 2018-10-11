@@ -10,9 +10,8 @@
     "url": ""
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-
-    "start": "npm run build && node ao-killboard.js"
+   "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ao-killboard.js"
   },
   "dependencies": {
     "bufferutil": "^3.0.3",
