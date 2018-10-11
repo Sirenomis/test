@@ -11,7 +11,7 @@
   },
   "scripts": {
    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "brew install libtool autoconf automake && rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "start": "npm run build && node dist/ao-killboard.js"
   },
   "dependencies": {
@@ -25,7 +25,7 @@
 	"uws" : "^9.14.0",
 	"node-opus" : "^0.2.7",
 	"opusscript" : "^0.0.6",
-	"sodium" : "^2.0.3",
+	
 	"libsodium-wrappers" : "^0.7.3",
 	"uws" : "^9.14.0"
   }
